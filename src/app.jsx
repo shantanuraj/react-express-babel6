@@ -1,6 +1,12 @@
-const x = 1;
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const main = x => console.log(x);
+class App extends React.Component {
+    render() {
+        return (
+            <h1>Hello, Babel 6!</h1>
+        );
+    }
+}
 
-main(x);
-
+ReactDOM.render(<App />, document.getElementById('app'));
