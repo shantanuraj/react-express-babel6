@@ -8,5 +8,5 @@ gulp.task('default', function () {
         .transform('babelify', {presets: ['es2015', 'react']})
         .bundle()
         .pipe(source('bundle.js'))
-        .pipe(gulp.dest('public'));
+        .pipe(gulp.dest('public/build'));
 });
