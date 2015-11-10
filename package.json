@@ -1,13 +1,13 @@
 {
-  "name": "new-node",
+  "name": "react-express-babel6",
   "version": "1.0.0",
-  "description": "A test for the new node and babel",
+  "description": "Demo showing the use of React and Express written in ES2015 transpiled via Babel 6",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/shantanuraj/new-node",
+  "repository": "https://github.com/shantanuraj/react-express-babel6",
   "author": "Shantanu <s@sraj.me>",
   "license": "ISC",
   "dependencies": {
